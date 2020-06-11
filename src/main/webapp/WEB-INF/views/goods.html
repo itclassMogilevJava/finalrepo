@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <h3 th:text="Hello"></h3>
+    <p>Make you order</p>
+    <ol>
+        <th:block th:each="good : ${goods}">
+            <li th:utext="${good.title}"></li>
+        </th:block>
+    </ol>
+</form>
+</body>
+</html>

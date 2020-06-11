@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+</head>
+<body>
+    <form th:action="register" th:method="post">
+        <h1>Welcome to Shop</h1>
+        <label for="login">Login:</label>
+        <input id=login type="text" name="login" required>
+        <br>
+        <label for="password">Password:</label>
+        <input id=password type="password" name="password" required>
+        <br>
+        <label for="agree">Agree with terms:</label>
+        <input id=agree type="checkbox" name="isAgree">
+        <br>
+        <input type="submit" value="Register"/>
+    </form>
+
+    <p th:if="${agreeError}" th:text="${agreeError}">1</p>
+
+</body>
+</html>
