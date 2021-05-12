@@ -18,7 +18,7 @@
         <commons-dbcp2.version>2.5.0</commons-dbcp2.version>
         <!-- Spring libs -->
         <spring.version>5.2.6.RELEASE</spring.version>
-        <spring-security.version>5.3.2.RELEASE</spring-security.version>
+        <spring-security.version>5.3.9.RELEASE</spring-security.version>
         <!-- thymeleaf -->
         <thymeleaf.version>3.0.11.RELEASE</thymeleaf.version>
         <thymeleaf.security.version>3.0.4.RELEASE</thymeleaf.security.version>
