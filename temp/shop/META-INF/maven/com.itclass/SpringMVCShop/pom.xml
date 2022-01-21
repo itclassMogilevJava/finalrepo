@@ -14,7 +14,7 @@
         <servlet.version>4.0.1</servlet.version>
         <jstl.version>1.2</jstl.version>
         <!-- DB -->
-        <h2database.version>1.4.200</h2database.version>
+        <h2database.version>2.1.210</h2database.version>
         <commons-dbcp2.version>2.5.0</commons-dbcp2.version>
         <!-- Spring libs -->
         <spring.version>5.2.6.RELEASE</spring.version>
